@@ -1,5 +1,6 @@
-runtime: python37 
+runtime: python27
+threadsafe: true
 
 handlers:
-- url: /.*
-  script: auto
+- url: /
+  script: server.app
